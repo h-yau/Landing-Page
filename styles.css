@@ -26,14 +26,22 @@ li {
     display: flex;
     flex-direction: column;
     margin: 0;
-    height: 300px;
+    padding: 8px 150px;
+    min-height: 300px;
 }
 
 .header {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
+    display: flex;
+    align-items: space-between;
+}
+
+.header2 {
+    display: flex;
+
+}
+
+.left, .right {
+    flex: 1;
 }
 
 .logo {
@@ -41,4 +49,13 @@ li {
     font-size: 24px;
     font-weight: 700;
     margin-right: auto;
+}
+
+.left > div {
+    color: white;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
 }
