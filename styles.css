@@ -19,8 +19,11 @@ li {
     color: #f9faf8;
     font-size: 18px;
     margin: 0 8px;
-    padding: 0;
-    
+    padding: 0;   
+}
+
+image {
+    max-width: 200px;
 }
 
 .head, .content, .contact, .footer {
@@ -70,10 +73,17 @@ li {
     flex-wrap: wrap;
 }
 
+.box {
+    display: flex;
+    flex: 1;
+    border: 1px;
+    max-width: 200px;
+    height: auto;
+}
+
 .footer {
     background-color: #1F2937;
     color: #f9faf8;
     text-align: center;
-    align-self: stretch;
-    
+    align-self: stretch;   
 }
