@@ -22,8 +22,9 @@ li {
     padding: 0;   
 }
 
-image {
-    max-width: 200px;
+img {
+    width: 200px;
+    height: auto;
 }
 
 .head, .content, .contact, .footer {
@@ -71,14 +72,19 @@ image {
 .boxes {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
 }
 
 .box {
     display: flex;
-    flex: 1;
-    border: 1px;
-    max-width: 200px;
-    height: auto;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    text-align: center;
 }
 
 .footer {
