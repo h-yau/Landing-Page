@@ -94,7 +94,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
+    gap: 1em;
 }
 
 .box {
@@ -104,7 +104,8 @@ img {
     align-self: center;
     justify-content: center;
     align-items: center;
-    max-width: 250px;
+    max-width: 9em;
+    /* max-width: 150px; */
     text-align: center;
 }
 
