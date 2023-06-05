@@ -84,10 +84,6 @@ img {
     align-items: center;
 }
 
-.left, .right {
-    flex: 1;
-}
-
 .logo {
     color: #f9faf8;
     font-size: 24px;
@@ -128,7 +124,8 @@ img {
     background-color: #1F2937;
     color: #f9faf8;
     text-align: center;
-    align-self: stretch;   
+    align-self: stretch;
+    padding: 3rem; 
 }
 
 .catbox {
@@ -151,16 +148,24 @@ img {
     display: flex;
     background-color: #3882F6;
     align-items: center;
-    justify-content: center;
-    margin: 7rem;
+    justify-content: space-between;
+    min-height: 10rem;
+    margin: 8rem 17.5rem;
     border-radius: 10px;
+
 }
 
 .contact  button {
     border: solid #F9FAF8;
+    font-size: 18px;
 }
 
 .contact * {
     color: #F9FAF8;
+    margin: 0;
 }
 
+#action {
+    font-weight: 700;
+    font-size: 24px;
+}
