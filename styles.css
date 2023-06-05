@@ -42,7 +42,8 @@ blockquote {
 }
 blockquote > * {
     font-style: normal;
-    
+    font-weight: 600;
+    text-align: right;
 }
 
 img {
@@ -95,6 +96,7 @@ img {
 .title {
     font-size: 48px;
     font-weight: 800;
+    color: #F9FAF8;
 }
 
 .boxes {
