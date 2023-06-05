@@ -1,4 +1,6 @@
-
+* {
+    font-family: ;
+}
 
 body {
     margin: 0;
@@ -35,8 +37,8 @@ li {
 blockquote {
     font-size: 36px;
     font-style: italic;
+    font-weight: 300;
     color: #1F2937;
-    background-color: #E5E7EB;
 }
 blockquote > * {
     font-style: normal;
@@ -47,9 +49,13 @@ img {
     height: auto;
 }
 
+.quote {
+    background-color: #E5E7EB;
+}
+
 .head, .content, .contact, .footer {
     margin: 0;
-    padding: 8px 150px;
+    padding: 1rem 10rem;
 }
 
 .head {
@@ -130,4 +136,20 @@ img {
     font-weight: 800;
     color: #1F2937;
 
+}
+
+.contact {
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact  button {
+    border: solid #F9FAF8;
+}
+
+.contact * {
+    color: #F9FAF8;
 }
