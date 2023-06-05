@@ -1,5 +1,5 @@
 * {
-    font-family: ;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -42,6 +42,7 @@ blockquote {
 }
 blockquote > * {
     font-style: normal;
+    
 }
 
 img {
@@ -53,7 +54,7 @@ img {
     background-color: #E5E7EB;
 }
 
-.head, .content, .contact, .footer {
+.head, .content, .contact, .footer, blockquote {
     margin: 0;
     padding: 1rem 10rem;
 }
@@ -135,7 +136,7 @@ img {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-
+    margin-bottom: 1em;
 }
 
 .contact {
@@ -153,3 +154,4 @@ img {
 .contact * {
     color: #F9FAF8;
 }
+
