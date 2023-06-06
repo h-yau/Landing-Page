@@ -20,6 +20,7 @@ button {
     border-radius: 10px;  
     border: none;
     font-weight: 700;
+    margin-top: 1rem;
 }
 
 
@@ -71,6 +72,7 @@ img {
     display: flex;
     flex-direction: column;
     min-height: 455px;
+    padding-top: 1.5rem;
 }
 
 .header {
@@ -81,7 +83,21 @@ img {
 
 .header2 {
     display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 3rem;
+}
+
+.header2 > * {
+    flex: 1;
+}
+
+.header2 .left {
+    /* max-width: 25rem; */
+}
+
+.header2 img {
+    min-width: 20rem;
 }
 
 .logo {
@@ -110,15 +126,13 @@ img {
 
 .box {
     display: flex;
-    border: 1px solid black;
     flex-wrap: wrap;
     align-self: center;
     justify-content: center;
     align-items: center;
     max-width: 15em;
-    /* max-width: 150px; */
     text-align: center;
-    color: rgb(124, 122, 122);
+    color: rgb(99, 97, 97);
 }
 
 .footer {
