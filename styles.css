@@ -4,7 +4,7 @@
 
 .head, .content, .contact, .footer, blockquote {
     margin: 0;
-    padding: 1rem 10rem;
+    padding: 1rem 30rem;
 }
 
 body {
@@ -73,31 +73,31 @@ img {
     flex-direction: column;
     min-height: 455px;
     padding-top: 1.5rem;
+    padding-bottom: 90px;
 }
 
 .header {
     display: flex;
     align-items: space-between;
-    margin-bottom: 90px;
+    margin-bottom: 200px;
 }
 
 .header2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 3rem;
+
 }
 
-.header2 > * {
-    flex: 1;
-}
 
 .header2 .left {
-    /* max-width: 25rem; */
+    max-width: 25rem;
 }
 
 .header2 img {
-    min-width: 20rem;
+    object-fit: cover;
+    max-height: 30rem;
+    width: 50rem;
 }
 
 .logo {
