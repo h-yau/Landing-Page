@@ -1,7 +1,7 @@
 # Landing-Page
 Project for Odin Project
 
-Live preview: [Landing Page](https://nzxzn.github.io/Landing-Page/)
+Live preview: [Landing Page](https://h-yau.github.io/Landing-Page/)
 
 Welcome to my landing page for the Odin Project! The porject's objective is to build aand deploy a landing page focusing on HTML and CSS. Specifically, it is a training for flexbox and git.
 
